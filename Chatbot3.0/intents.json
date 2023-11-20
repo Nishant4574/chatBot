@@ -1,0 +1,412 @@
+{
+  "intents": [
+    {
+      "tag": "Hi",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hi w are you",
+        "Is anyone there?",
+        "Hello"
+        
+      ],
+      "responses": ["Hi😄, I am chatbotbot for this website how could I assit you?"
+        
+      ]
+    },
+    {
+      "tag": "bye",
+      "patterns": ["Bye", "See you later", "bye"],
+      "responses": [
+        "See you later, thanks for visiting and Best of luck for your Exam"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help! and best of luck for your exam"]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "I need some help",
+        "please help me",
+        "help me",
+        "help",
+        "help him",
+        "please help me",
+        "go get some help"
+                
+      ],
+      "responses": 
+        [
+        "Please select the below option for your Query:<br>𝐎𝐩𝐭𝐢𝐨𝐧 𝐀: Query for Exam Rules and Guidelines.<br>𝐎𝐩𝐭𝐢𝐨𝐧 𝐁: Query for Technical Support/issues.<br>𝐎𝐩𝐭𝐢𝐨𝐧 𝐂: Proctoring and Security."
+      ]
+    },
+    {
+      "tag": "Option A",
+      "patterns": [
+        "option a",
+        "help me with Option A ",
+        "OptionA",
+        "select the option b",
+        "a"
+      ],
+      "responses": [
+        "In which section you want specific response?<br>⁃𝐓𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐑𝐞𝐪𝐮𝐢𝐫𝐞𝐦𝐞𝐧𝐭<br>⁃𝐈𝐝𝐞𝐧𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧<br>⁃𝐄𝐱𝐚𝐦 𝐓𝐢𝐦𝐞<br>⁃𝐄𝐱𝐚𝐦 𝐄𝐧𝐯𝐢𝐫𝐨𝐧𝐦𝐞𝐧𝐭<br>⁃𝐌𝐚𝐭𝐞𝐫𝐢𝐚𝐥𝐬<br>⁃𝐏𝐥𝐚𝐠𝐢𝐚𝐫𝐢𝐬𝐦 𝐚𝐧𝐝 𝐂𝐡𝐞𝐚𝐭𝐢𝐧𝐠<br>⁃𝐂𝐨𝐦𝐦𝐮𝐧𝐢𝐜𝐚𝐭𝐢𝐨𝐧<br>⁃𝐂𝐚𝐦𝐞𝐫𝐚 𝐚𝐧𝐝 𝐌𝐢𝐜𝐫𝐨𝐩𝐡𝐨𝐧𝐞<br>⁃𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧 𝐅𝐨𝐫𝐦𝐚𝐭<br>⁃𝐒𝐮𝐛𝐦𝐢𝐬𝐬𝐢𝐨𝐧"
+    ]
+    
+    },
+    {
+      "tag": "Technical Requirement",
+      "patterns": [
+        "info regarding the technical requirement",
+        "information regarding technical requirement",
+        "Regarding technical requirement",
+        "about technical requirement",
+        "about the technical requirement",
+        "exam Technical Requirement",
+        "exam techical requirement",
+        "Technical Requirement regarding the exam",
+        "Regarding Techincal",
+        "Technical",
+        "Technical Requirement"
+      ],
+      "responses": [
+        "• Ensure your computer and internet connection meet the technical requirements for the exam.<br>•Test your equipment in advance to ensure it works properly during the exam."
+      ]
+    },
+    {
+      "tag": "Identification",
+      "patterns": [
+        "information regarding the Identification",
+        "information regarding Identification",
+        "info regarding Identity",
+        "information regarding the Identity",
+        "information regarding Identity",
+        "identity",
+        "Regarding Identification",
+        "issue Regarding Identification",
+        "issue Regarding Identity",
+        "Regarding Identity",
+        "Identification"
+
+      ],
+      "responses": [
+      "• Be prepared to verify your identity using a government-issued ID, webcam, or other methods as required."
+        
+      ]
+    },
+    {
+      "tag": "Exam Time",
+      "patterns": [
+        "information regarding the timing for exam",
+        "info regarding the time",
+        "information regarding the time",
+        "information regarding the Exam time",
+        "time",
+        "Timing",
+        "Timing of exam",
+        "Time for exam",
+        "what is the time for exam",
+        "Exam Time"
+      ],
+      "responses": [
+        "• Be punctual and start the exam at the designated time.<br>‣Keep track of the time limit and manage your time wisely during the exam."
+      ]
+    },
+    {
+      "tag": "Exam Environment",
+      "patterns": [
+        "info regarding  exam Environment",
+        "info regarding the Exam Environment",
+        "information regarding  Exam Environment",
+        "information regarding the Exam Environment",
+        "info regarding the secure Environment",
+        "information regarding secure Environment",
+        "information regarding the secure Environment",
+        "secure Environment",
+        "secure",
+        "Environment",
+        "Exam Environment"
+      ],
+      "responses": [
+        "• Find a quiet and well-lit place to take the exam.<br>‣Make sure your background is free from any materials or notes that could be used for cheating."
+      ]
+    },
+    {
+      "tag": "Materials",
+      "patterns": [
+        "Information regarding the material",
+        "Information regarding materials",
+        "Info regarding the materials",
+        "Information regarding the materials",
+        "Material we can use in exam",
+        "Materials we can used in exam",
+        "Materials we can use in exam",
+        "Materials use in exam",
+        "Materials used in exam",
+        "Material use in exam",
+        "Materials",
+        "Material"
+      ],
+      "responses": [
+        "• Only use materials and resources allowed by the exam instructions.<br>Typically, this may include textbooks, notes, or a specific set of online resources."
+      ]
+    },
+    {
+      "tag": "Plagiarism and CheatingPlagiarism and Cheating",
+      "patterns": [
+        "Info regarding Plagiarism and Cheating",
+        "Information regarding the Plagiarism and Cheating",
+        "Info regarding Cheating",
+        "Information regarding Cheating",
+        "Information regarding Plagiarism and Cheating",
+        "doing cheating in exam",
+        "cheating in exam",
+        "what id i do cheating",
+        "if one does cheating",
+        "Caught  by cheating",
+        "Plagiarism and CheatingPlagiarism and Cheating"
+      ],
+      "responses": [
+        "• Do not engage in any form of cheating, plagiarism, or academic dishonesty. This includes using unauthorized study materials, copying from others, or seeking outside assistance"
+      ]
+    },
+    {
+      "tag": "Communication",
+      "patterns": [
+        "Information regarding the Communication ",
+        "Info regarding the Communication",
+        "Info regarding Communication",
+        "Information regarding Communication",
+        "trying communication",
+        "trying to communicate in exam",
+        "what if we try communication",
+        "try to communicate",
+        "communte",
+        "Communicate",
+        "Communication"
+      ],
+      "responses": [
+        "• Follow any instructions regarding communication during the exam (e.g., no talking, messaging, or emailing with others)."
+      ]
+    },
+    {
+      "tag": "Camera and Microphone",
+      "patterns": [
+        "information regarding Camera and Microphone",
+        "regarding information about Camera and Microphone",
+        "regarding info about Camera and Microphone",
+        "Info regarding Camera and Microphone",
+        "Microphone",
+        "Camera",
+        "Camera and Microphone"
+        
+      ],
+      "responses": [
+        "• If required, keep your webcam and microphone on throughout the exam."
+      ]
+    },
+    {
+      "tag": "Question Format",
+      "patterns": [
+        "query for question format",
+        "query regarding question format",
+        "query regarding the question format",
+        "info regarding question format",
+        "info regarding the question format",
+        "information regarding question format",
+        "information regarding the question format",
+        "formation of question",
+        "Question Format"
+      ],
+      "responses": [
+        "• Pay close attention to the format of the questions. Ensure that you understand what is being asked before answering."
+      ]
+    },
+    {
+      "tag": "Submission",
+      "patterns": [
+        "query of submission",
+        "query for submission in exam",
+        "query for submission",
+        "submission of exam",
+        "submission for exam",
+        "Info regarding submission",
+        "information regarding the submission",
+        "information for submission",
+        "Submission"
+      ],
+      "responses": [
+        "• Follow the instructions for submitting your exam. Make sure you submit it within the allotted time."
+      ]
+    },
+    {
+      "tag": "Option B",
+      "patterns": [
+        "select the option b",
+        "b",
+        "option b",
+        "select Option b"
+      ],
+      "responses": [
+        "• Make sure your computer and internet connection meet the specified technical requirements for this exam.<br>If there is another technical issue then response to the following Email-Id and contact No:<br>abc357@gmail.com<br>9699834567"
+      ]
+    },
+    {
+      "tag": "Option C",
+      "patterns": [
+        "Select the option c",
+        "Select option c",
+        "c",
+        "Option c"
+      ],
+      "responses": [
+        "In which section you want specific response ?<br>⁃ 𝐈𝐧𝐝𝐞𝐧𝐭𝐢𝐭𝐲 𝐕𝐞𝐫𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧<br>⁃ 𝐈𝐧𝐟𝐨 𝐚𝐛𝐨𝐮𝐭 𝐏𝐫𝐨𝐜𝐭𝐨𝐫<br>⁃ 𝐋𝐨𝐜𝐤𝐝𝐨𝐰𝐧 𝐁𝐫𝐨𝐰𝐬𝐞𝐫𝐬<br>⁃ 𝐏𝐫𝐨𝐜𝐭𝐨𝐫𝐢𝐧𝐠 𝐑𝐞𝐩𝐨𝐫𝐭𝐬<br>⁃ 𝐒𝐜𝐫𝐞𝐞𝐧 𝐑𝐞𝐜𝐨𝐫𝐝𝐢𝐧𝐠<br>⁃ 𝐓𝐢𝐦𝐞 𝐋𝐢𝐦𝐢𝐭<br>⁃ 𝐖𝐞𝐛𝐜𝐚𝐦 𝐌𝐨𝐧𝐢𝐭𝐨𝐫𝐢𝐧𝐠"
+      ]
+    },
+    {
+      "tag": "Indentity Verification",
+      "patterns": [
+        "information of Identity Verification",
+        "information regarding  Identity Verification",
+        "information regarding the Identity Verification",
+        "inforamtion for theIdentity Verification",
+        "information for Identity Verification",
+        "Identity Verification"
+      ],
+      "responses": [
+        "• Test-takers may be required to verify their identity using a government-issued ID, facial recognition technology, or biometric authentication methods."
+      ]
+    },
+    {
+      "tag": "Info about Proctor",
+      "patterns": [
+        "info of Proctor",
+        "info of the proctor",
+        "info about proctor",
+        "info about the Proctor",
+        "information about  proctor",
+        "information about the Proctor",
+        "information for the proctor",
+        "information for the Proctor",
+        "query for Proctor",
+        "query for the proctor",
+        "query regarding  proctor",
+        "info for proctor",
+        "Proctor",
+        "proctor"
+
+      ],
+      "responses": [
+        "• Instructors or human proctors may also monitor exams remotely or through video conferencing platforms."
+      ]
+    },
+    {
+      "tag": "Lockdown Browsers",
+      "patterns": [
+        "query for Lockdown Browsers",
+        "query for the Lockdown Browsers",
+        "query regarding the lockdown browser",
+        "info regarding for the lockdown browser",
+        "info regarding the Lockdown Browsers",
+        "info regarding lockdown browser",
+        "lockdown browser",
+        "Lockdown Browsers",
+        "query for lockdown browsers",
+        "query for the Lockdown Browsers",
+        "query regarding the lockdown browsers",
+        "info regarding the lockdown browsers",
+        "info regarding lockdown browsers",
+        "lockdown browsers",
+        "Lockdown Browsers"
+      ],
+      "responses": [
+        "• Lockdown browsers restrict a test-taker's ability to access other applications, websites, or resources on their computer during the exam."
+      ]
+    },
+    {
+      "tag": "Proctoring Reports",
+      "patterns": [
+        "query for the Proctoring Report",
+        "query regarding the Proctoring Reports",
+        "query  regarding Proctoring Reports",
+        "query for Proctoring Report",
+        "Information for Proctoring Reports",
+        "Information for the Proctoring Report",
+        "Info regarding the Proctoring Reports",
+        "Information regarding Proctoring Reports",
+        "Information regarding the Proctoring Report",
+        "exam reuslt",
+        "Proctoring Reports",
+        "query regarding the proctoring reports",
+        "query regarding the proctoring report",
+        "information regarding the proctoring reports",
+        "Proctoring Report"
+    
+      ],
+      "responses": [
+        "• Proctoring reports are generated after the exam, providing insights into test-taker behavior during the test."
+      ]
+    },
+    {
+      "tag": "Screen Recording",
+      "patterns": [
+        "query regarding screen recording",
+        "query regarding the screen recording",
+        "Information regarding screen recording",
+        "Information regarding the screen recording",
+        "Recording for the screen",
+        "Recording for  screen",
+        "Recording",
+        "Screen Recording",
+        "screen recording"
+  
+      ],
+      "responses": [
+        "• Recording the screen during the exam can help review the test-taker's actions and activities during the test."
+      ]
+    },
+    {
+      "tag": "Time Limits",
+      "patterns": [
+        "TimeLimit",
+        "Time Limit",
+        "info regarding the Time Limit",
+        "information for the time limits",
+        "information for Time Limits",
+        "information regarding the time limits",
+        "information regarding the Time Limits",
+        "information regarding Time Limits",
+        "time",
+        "Time Limits",
+        "time limits",
+        "time limits"
+        
+      ],
+      "responses": [
+        "• Online exams often have strict time limits to reduce the opportunity for cheating or consulting external sources."
+      ]
+    },
+    {
+      "tag": "Webcam Monitoring",
+      "patterns": [
+        "query for Webcam Monitoring",
+        "query regarding  Webcam Monitoring",
+        "query regarding the Webcam Monitoring",
+        "info regarding Webcam Monitoring",
+        "info regarding the Webcam Monitoring",
+        "information for  Webcam Monitoring",
+        "information for the Webcam Monitoring",
+        "Webcam Monitoring",
+        "webcam monitoring"
+    
+      ],
+      "responses": [
+        "‣Test-takers' webcams may be monitored to ensure they are not looking at notes, talking to others, or engaging in any other suspicious activity."
+      ]
+    }
+    
+  ]
+}
